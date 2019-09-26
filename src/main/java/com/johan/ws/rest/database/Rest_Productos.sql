@@ -1,0 +1,9 @@
+CREATE SCHEMA rest;
+USE rest;
+
+CREATE TABLE productos(
+id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+nombre VARCHAR(20),
+descripcion TEXT,
+precio DOUBLE
+);
